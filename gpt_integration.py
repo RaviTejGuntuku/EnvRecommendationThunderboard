@@ -2,7 +2,7 @@ import bleak_connect_tb
 import asyncio
 import openai
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 asyncio.run(bleak_connect_tb.main())
 
@@ -19,9 +19,8 @@ def generateRecommendation(temperatureFahrenheit, humidityPercent, uvIndex):
         model="text-davinci-003",
         prompt="""
 
-            Right now, it is {temperature}°F with a humidity percent of {humidity} and a UV index of {uv_index}.
-            Should I go outside or stay inside, and why? If I can go outside, can you please recommend the proper 
-            clothing given these weather conditions?
+            Right now, it is {temperature}°F with a humidity percent of {humidity} and a UV index of {uv_index}. 
+            Can you please recommend the proper clothing I should wear when going outside given these weather conditions?
 
             """.format(temperature=temperatureFahrenheit, humidity=humidityPercent, uv_index=uvIndex),
         temperature=0.5,
