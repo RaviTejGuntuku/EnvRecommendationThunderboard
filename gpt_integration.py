@@ -1,8 +1,9 @@
 import bleak_connect_tb
 import asyncio
 import openai
+from decouple import config 
 
-openai.api_key = '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'
+openai.api_key = config('OPENAI_API_KEY')
 
 asyncio.run(bleak_connect_tb.main())
 
