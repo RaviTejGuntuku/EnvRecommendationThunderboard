@@ -40,4 +40,4 @@ Note down the UUID of your Thunderboard and modify the address variable in the b
 - [ ] Convert client-side code to an object-oriented structure to streamline programmer experience
 - [ ] Create a Flask UI for application
 - [ ] Create own neural network to avoid fallacious recommendations furnished by GPT-3
-- [ ] Affix cooling system and case to ThunderBoard SoC for more accurate temperature measurements
+- [ ] Affix cooling system and case to ThunderBoard SoC to ameliorate internal heating's effect on temperature measurements
