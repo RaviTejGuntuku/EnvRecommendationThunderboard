@@ -20,7 +20,7 @@ Given that libraries such as bluepy only run on Linux machines, I used the [Blea
 4. Click "Example Products and Demos" and search for "Bluetooth SoC Thunderboard." Download and install the aforementioned project.
 5. Run the project on Simplicity Studio (the Thunderboard needs to be connected even WHILE the project is running)
 
-If the project is running on the Thunderboard, you've successfully initiated a BLE server on your Thunderboard. Now, the next phase is connecting to the server by utilizing the Bleak python library, which can be installed using the command below:
+If the project is running on the Thunderboard, you've successfully initiated a BLE server on your Thunderboard. Now, the next phase is connecting to the server by utilizing the Bleak python library, which can be installed using the command below (be sure that [Python](https://www.python.org/) is installed and properly configured beforehand):
 
 ```
 pip install bleak
